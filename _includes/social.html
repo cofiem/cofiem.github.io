@@ -63,6 +63,37 @@ Follow me:
   </a>
   {% endif %}
 
+  {% if site.data.theme.social.foursquare %}
+  <a title="{{ site.data.theme.name }} on Foursquare" href="https://foursquare.com/{{ site.data.theme.social.foursquare }}">
+     <i class="fa fa-foursquare"></i>
+  </a>
+  {% endif %}
+
+    {% if site.data.theme.social.lastfm %}
+    <a title="{{ site.data.theme.name }} on Lastfm" href="http://www.last.fm/user/{{ site.data.theme.social.lastfm }}">
+        <!--<i class="fa fa-lastfm"></i>-->
+        <img src="http://cdn.last.fm/flatness/favicon.2.ico">
+    </a>
+    {% endif %}
+
+    {% if site.data.theme.social.flickr %}
+    <a title="{{ site.data.theme.name }} on Flickr" href="http://www.flickr.com/people/{{ site.data.theme.social.flickr }}">
+        <i class="fa fa-flickr"></i>
+    </a>
+    {% endif %}
+
+    {% if site.data.theme.social.steam %}
+    <a title="{{ site.data.theme.name }} on Steam" href="http://steamcommunity.com/id/{{ site.data.theme.social.steam }}">
+        <i class="fa fa-steam-square"></i>
+    </a>
+    {% endif %}
+
+    {% if site.data.theme.social.instagram %}
+    <a title="{{ site.data.theme.name }} on Instgram" href="http://instagram.com/{{ site.data.theme.social.instagram }}">
+        <i class="fa fa-instagram"></i>
+    </a>
+    {% endif %}
+
   <a title="RSS feed" id="rss" href="/atom.xml">
     <i class="fa fa-rss-square"></i>
   </a>

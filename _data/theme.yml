@@ -1,28 +1,33 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#3498db'
+highlight_color: '#620B74'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
-  #bitbucket: philipj
-  hacker_news: swanson
-  #stackexchange: 348619
-  #stackoverflow: 348619
-  twitter: _swanson
-  #facebook: zuck
-  #tumblr: animalygifs
-  #linkedin: philipjagielski
-  #gplus: 110552447039675960964
+  github: cofiem
+  #bitbucket:
+  #hacker_news:
+  stackexchange: 15104
+  stackoverflow: 31567
+  twitter: cofiem
+  #facebook:
+  #tumblr:
+  linkedin: markcf
+  gplus: +MarkCottmanFields
+  foursquare: cofiem
+  lastfm: anotherbyte
+  flickr: kramrecords
+  steam: cofiem
+  instragram: cofiem
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Mark Cottman-Fields
+#email: test@example.com
+tagline: "another byte of opinion"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-5300909-5
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
