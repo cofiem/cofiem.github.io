@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: pygments
 safe: true
-url: http://example.com
+url: http://cofiem.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
