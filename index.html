@@ -3,11 +3,58 @@ layout: default
 title: Blog Posts
 ---
 
-<div id="home">
-  <h2><i class="icon-bookmark"></i> Blog Posts</h2>
-  <ul id="blog-posts" class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in paginator.posts %}
+<p class="meta">
+    {{ post.date | date: "%B %d, %Y" }}
+</p>
+
+<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+<div class="post post-paged">
+    {{ post.content }}
 </div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="prev">&laquo; Prev</a>
+    {% else %}
+    <span class="disabled previous_page">&laquo; Prev</span>
+    {% endif %}
+
+    {% assign already_has_hellip = false %}
+
+    {% for page in (1..paginator.total_pages) %}
+
+    {% assign extra_pages = 3 %}
+    {% assign start_min = extra_pages %}
+    {% assign start_max = paginator.page | minus: extra_pages %}
+    {% assign end_min = paginator.page | plus: extra_pages %}
+    {% assign end_max = paginator.total_pages | plus: 1 | minus: extra_pages %}
+
+
+    {% if page == paginator.page %}
+    <em class="current">{{ page }}</em>
+    {% assign already_has_hellip = false %}
+    {% elsif page == 1 %}
+    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% elsif page < start_min or page > end_max %}
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% elsif page > start_max and page < end_min %}
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% else %}
+        {% unless already_has_hellip %}
+            &hellip;
+            {% assign already_has_hellip = true %}
+        {% endunless %}
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="next" class="next_page">Next &raquo;</a>
+    {% else %}
+    <span>Next &raquo;</span>
+    {% endif %}
+</div>
+{% endif %}

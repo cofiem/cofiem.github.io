@@ -1,0 +1,1 @@
+I just played Oddworld: Abe's Oddysee for the first time in many years. I still remember the secrets on the first few screens, and even how to do them! Such a creepy, vicious, and gory, yet satisfying , game.
