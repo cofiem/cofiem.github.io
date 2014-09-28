@@ -13,6 +13,7 @@ title: Home
 
     <h1 class="p-name title" itemprop="name headline"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h1>
     <link itemprop="url" href="{{post.url}}" />
+    <meta class="p-author" itemprop="author" content="{{ site.data.theme.name }}" />
     <div class="e-content post post-paged" itemprop="articleBody text">
         {{ post.content }}
     </div>
