@@ -7,7 +7,9 @@ title: Tags
     <h2><i class="icon-bookmark"></i>Tags</h2>
     <ul id="blog-posts" class="posts">
         {% for tag in site.tags %}
-        <li><span>{{ tag[0] }} &raquo;</span>{{tag[1].size}}</li>
+        <li class="h-entry">
+            <span class="p-name">{{ tag[0] }} &raquo;</span>{{tag[1].size}}
+        </li>
         {% endfor %}
     </ul>
 </div>

@@ -1,24 +1,29 @@
 ---
 layout: default
-title: Blog Posts
+title: Home
 ---
 
 {% for post in paginator.posts %}
-<p class="meta">
-    {{ post.date | date: "%B %d, %Y" }}
-</p>
+<div class="h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <p class="meta">
+        <time class="dt-published" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %d, %Y" }}
+        </time>
+    </p>
 
-<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-
-<div class="post post-paged">
-    {{ post.content }}
+    <h1 class="p-name title" itemprop="name headline"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h1>
+    <link itemprop="url" href="{{post.url}}" />
+    <div class="e-content post post-paged" itemprop="articleBody text">
+        {{ post.content }}
+    </div>
 </div>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="prev">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="prev">&laquo;
+        Prev</a>
     {% else %}
     <span class="disabled previous_page">&laquo; Prev</span>
     {% endif %}
@@ -40,14 +45,18 @@ title: Blog Posts
     {% elsif page == 1 %}
     <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% elsif page < start_min or page > end_max %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+        {{ page }}
+    </a>
     {% elsif page > start_max and page < end_min %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+        {{ page}}
+    </a>
     {% else %}
-        {% unless already_has_hellip %}
-            &hellip;
-            {% assign already_has_hellip = true %}
-        {% endunless %}
+    {% unless already_has_hellip %}
+    &hellip;
+    {% assign already_has_hellip = true %}
+    {% endunless %}
     {% endif %}
     {% endfor %}
 
