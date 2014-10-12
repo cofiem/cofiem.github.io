@@ -1,0 +1,18 @@
+---
+layout: post
+title: New Anti-terror Laws
+tags:
+- government
+- comment
+- privacy
+- terrorism
+- article
+---
+
+I am appreciative and scared by [this speech by The Greens' Scott Ludlam](http://scott-ludlam.greensmps.org.au/content/speeches-parliament/new-terror-laws-will-not-make-australia-safer-national-security-legislat) in the Austrlian Senate:
+
+> "We have not been given the courtesy of even seeing the government's amendments to this bill. If this bill were trivial, that would be bad manners. But, on a bill as important as this, I say you are treating us with contempt. You are treating your own backbenchers with contempt or anybody who might come in here with a will to do, with due diligence, the job that we were sent here to do, whatever our political affiliations, with contempt by asking us to come in here and debate a bill that we have not read. That is treating us with contempt."
+
+> "I am appalled that the Attorney-General, who falls over himself in interviews to say he would be the last one to arbitrarily sign off on the coercive powers of the state-I believe he considers himself a true Liberal in the original sense of the word-would allow the criminalisation of reporting of national security material."
+
+> "Deradicalisation and prevention in the first place-which I understand everybody in here is interested in-need resourcing. I know it is not as dramatic, and it might not get you on the front page of the Daily Telegraph tomorrow, but it is an essential part of preventing the further spread of violence. Cutting $11 million from the Building Multicultural Communities Program is really [showing your attitude]. Cutting the Independent National Security Legislation Monitor is unforgivable. Cutting humanitarian foreign aid and our humanitarian refugee intake. Gov't zeroed, earlier this year, our foreign aid contribution to Iraq, which we helped demolish. These are decisions that come back to bite us. These are things that matter. People notice."
