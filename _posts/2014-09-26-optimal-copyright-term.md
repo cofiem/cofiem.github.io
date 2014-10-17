@@ -12,6 +12,8 @@ I mostly blame Mickey Mouse/Disney and co.
 
 ![Copyright duration and the mickey mouse curve](/assets/posts/copyright duration and mickey mouse curve.gif "Copyright duration and the mickey mouse curve")
 
+This image is from a blog post by [Tom W. Bell at TechLiberation Front](http://techliberation.com/2009/08/06/copyright-duration-and-the-mickey-mouse-curve/).
+
 From a paper by [Rufus Pollock (2009): Forever minus a day? Calculating Optimal Copyright Term](http://rufuspollock.org/papers/optimal_copyright_term.pdf):
 
 > "In this paper we have developed a simple dynamic model for analysing copyright term. In Proposition 1 we derived a single, simple, equation that defined optimal term as a function of key exogenous variables. Using the estimates for these variables derived from the available empirical data we obtained a point estimate for optimal copyright term of approximately 15 years (with a 99% confidence interval extending up to 38 years). To our knowledge this is the first such estimate which is properly grounded, both theoretically and empirically.
