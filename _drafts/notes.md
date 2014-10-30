@@ -79,3 +79,34 @@ http://tenhundredwordsofscience.tumblr.com/
 http://www.smh.com.au/national/hiv-and-sexual-disease-rates-in-young-climbing-specialist-says-20130119-2d0ik.html
 
 Beasts of the Southern Wild, Silver Linings Playbook or Life of Pi
+
+http://evbeard.com/posts/learning-to-program/
+http://seldo.com/weblog/2011/08/11/php_needs_to_die_what_will_replace_it
+http://go-tour.appspot.com/#1
+http://www.softwarequalityconnection.com/2011/04/does-pair-programming-obviate-the-need-for-code-review/
+http://www.csis.dk/en/csis/news/3321
+http://worrydream.com/KillMath/
+http://booktwo.org/notebook/the-new-value-of-text/
+http://entertainment.salon.com/2011/10/04/return_of_hypertext/singleton/
+http://blog.deg.io/post/11054132161/why-the-iphone-5-never-arrived-time-to-question-big
+http://www.kickstarter.com/projects/1975008436/creatures-the-card-game?ref=NewsOct0611&utm_campaign=Oct06&utm_medium=email&utm_source=newsletter
+http://www.kickstarter.com/projects/1558460869/chickpea-magazines-first-issue?ref=NewsOct0611&utm_campaign=Oct06&utm_medium=email&utm_source=newsletter
+http://www.guardian.co.uk/technology/2011/oct/06/why-do-people-hate-apple
+Emotional Design and his latest, called Living With Complexity
+
+http://www.pcauthority.com.au/News/275493,24-apps-updates-and-downloads-you-may-have-missed-this-week.aspx?eid=2&edate=20111007&utm_source=20111007&utm_medium=newsletter&utm_campaign=weekly_newsletter
+http://www.wired.com/epicenter/2011/10/james-dysons-apple-moment/
+
+Passwords
+http://cacm.acm.org/blogs/blog-cacm/123889-password-policies-are-getting-out-of-control/fulltext
+http://xkcd.com/792/
+http://xkcd.com/936/
+http://xkcd.com/538/
+http://boingboing.net/2011/08/10/xkcd-on-the-password-paradox-human-factors-versus-computers-brute-force.html
+
+http://www.economist.com/blogs/democracyinamerica/2011/08/intellectual-property
+http://uxmag.com/strategy/five-popular-web-strategies-that-dont-work
+
+http://sheddingbikes.com/posts/1286998492.html
+http://blog.objectmentor.com/articles/2010/01/17/dependency-injection-inversion
+http://www.wordyard.com/2010/10/12/the-web-parenthesis-is-the-open-web-closing/
