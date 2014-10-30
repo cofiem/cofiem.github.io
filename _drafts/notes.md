@@ -110,3 +110,4 @@ http://uxmag.com/strategy/five-popular-web-strategies-that-dont-work
 http://sheddingbikes.com/posts/1286998492.html
 http://blog.objectmentor.com/articles/2010/01/17/dependency-injection-inversion
 http://www.wordyard.com/2010/10/12/the-web-parenthesis-is-the-open-web-closing/
+http://blogs.hbr.org/bregman/2010/05/how-and-why-to-stop-multitaski.html
