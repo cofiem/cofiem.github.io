@@ -1,1 +1,0 @@
-TIL: My great aunt, who recently died, knew, and once had dinner with, Albert Einstein o_O

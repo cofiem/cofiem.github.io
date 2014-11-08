@@ -5,6 +5,7 @@ tags:
 - politics
 - comment
 - remix
+- image
 ---
 
 ![Advance Australia Unfair](/assets/posts/advance-australia-unfair.jpg "Advance Australia Unfair")
