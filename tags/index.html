@@ -4,11 +4,13 @@ title: Tags
 ---
 
 <div id="home">
-    <h2><i class="icon-bookmark"></i>Tags</h2>
+    <h2><i class="fa fa-tags"></i> Tags</h2>
     <ul id="blog-posts" class="posts">
         {% for tag in site.tags %}
         <li class="h-entry">
-            <span class="p-name">{{ tag[0] }} &raquo;</span>{{tag[1].size}}
+            {% assign current_tag = tag[0] %}
+            {% assign current_slug = site.data.tagsnamehash[current_tag] %}
+            <a class="p-name" href="/tag/{{ current_slug }}/">{{ tag[0] }}</a><span> &raquo; </span>{{tag[1].size}}
         </li>
         {% endfor %}
     </ul>

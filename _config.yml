@@ -1,9 +1,9 @@
 # General Jekyll Config
 highlighter: pygments
-safe: true
+safe: false
 url: http://anotherbyte.net
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor, 'tag/']
 paginate: 5
 gems:
   - jekyll-sitemap
