@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Game Review: SteamWorld Dig
+title: 'Game Review: SteamWorld Dig'
 tags:
 - games
 - review
