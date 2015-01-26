@@ -12,7 +12,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = "#{tag_slug}.md"
+      @name = "#{tag_slug}.html"
 
       process(@name)
 
