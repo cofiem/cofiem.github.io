@@ -3,7 +3,7 @@ highlighter: pygments
 safe: false
 url: http://anotherbyte.net
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor, 'tag/']
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 paginate: 5
 gems:
   - jekyll-sitemap
