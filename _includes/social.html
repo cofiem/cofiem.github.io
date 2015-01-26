@@ -128,6 +128,13 @@ Follow me:
     </a>
     {% endif %}
 
+    {% if site.data.theme.social.goodreads %}
+    <a class="u-url" rel="me" itemprop="url" itemscope="" itemtype="http://schema.org/ContactPoint"
+       title="{{ site.data.theme.name }} on Goodreads"
+       href="https://www.goodreads.com/user/show/{{ site.data.theme.social.goodreads }}">
+        <i class="fa fa-globe"></i>
+    </a>
+    {% endif %}
 
     <a title="RSS feed" id="rss" href="/atom.xml">
         <i class="fa fa-rss-square"></i>
