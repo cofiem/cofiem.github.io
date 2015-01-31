@@ -23,23 +23,25 @@ title: Home
         <ul>
 
             {% if post.tags.size > 0 %}
-            {% for post_tag in post.tags %}
-            {% for data_tag in site.data.tags %}
-            {% if data_tag.slug == post_tag %}
-            {% assign tag = data_tag %}
-            {% endif %}
-            {% endfor %}
-            {% if tag %}
-            {% capture tags_content_temp %}{{ tags_content }}<li class="p-category"><a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a></li>{% endcapture %}
-            {% assign tags_content = tags_content_temp %}
-            {% endif %}
-            {% endfor %}
+              {% for post_tag in post.tags %}
+                {% for data_tag in site.data.tags %}
+                  {% if data_tag.slug == post_tag %}
+                    {% assign tag = data_tag %}
+                  {% endif %}
+                {% endfor %}
+                {% if tag %}
+                  {% capture tags_content_temp %}{{ tags_content }}<li class="p-category"><a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a></li>{% endcapture %}
+                  {% assign tags_content = tags_content_temp %}
+                {% endif %}
+              {% endfor %}
             {% else %}
-            {% assign tags_content = '' %}
+              {% assign tags_content = '' %}
             {% endif %}
-
 
             {{ tags_content }}
+
+            {% assign tags_content = '' %}
+            {% assign tags_content_temp = '' %}
         </ul>
     </div>
 </div>
