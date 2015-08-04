@@ -6,12 +6,14 @@ title: Tags
 <div id="home">
     <h2><i class="fa fa-tags"></i> Tags</h2>
     <ul id="blog-posts" class="posts">
-        {% assign sorted_tags = site.tags | sort: tag[0] %}
-        {% for tag in sorted_tags %}
+        {% assign tag_infos = site.data.custom_tags_slug_keys %}
+        {% for tag_info in tag_infos %}
         <li class="h-entry">
-            {% assign current_tag = tag[0] %}
-            {% assign current_slug = site.data.tagsnamehash[current_tag] %}
-            <a class="p-name" href="/tag/{{ current_slug }}/">{{ tag[0] }}</a><span> &raquo; </span>{{tag[1].size}}
+            {% assign current_info = tag_info[1] %}
+            {% assign current_tag = current_info['name'] %}
+            {% assign post_count = current_info['post_count'] %}
+            {% assign current_slug = current_info['slug'] %}
+            <a class="p-name" href="/tag/{{ current_slug }}/">{{ current_tag }}</a><span> &raquo; </span>{{post_count}}
         </li>
         {% endfor %}
     </ul>

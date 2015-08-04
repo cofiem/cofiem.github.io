@@ -7,11 +7,3 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 paginate: 5
 gems:
   - jekyll-sitemap
-
-# To generate the site locally:
-# - safe: false
-# - add 'tag/*' to exclude list
-# run `bundle exec jekyll build`
-#
-# When pushing to github:
-# ensure safe is true, exclude list does not contain 'tag/*'

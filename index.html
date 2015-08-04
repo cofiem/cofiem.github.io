@@ -21,27 +21,13 @@ title: Home
     <div class="postTags clearfix">
         {% if post.tags.size == 1 %}<i class="fa fa-tag fa-lg"></i>{% else %}<i class="fa fa-tags fa-lg"></i>{% endif %}
         <ul>
-
-            {% if post.tags.size > 0 %}
-              {% for post_tag in post.tags %}
-                {% for data_tag in site.data.tags %}
-                  {% if data_tag.slug == post_tag %}
-                    {% assign tag = data_tag %}
-                  {% endif %}
-                {% endfor %}
-                {% if tag %}
-                  {% capture tags_content_temp %}{{ tags_content }}<li class="p-category"><a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a></li>{% endcapture %}
-                  {% assign tags_content = tags_content_temp %}
-                {% endif %}
-              {% endfor %}
-            {% else %}
-              {% assign tags_content = '' %}
-            {% endif %}
-
-            {{ tags_content }}
-
-            {% assign tags_content = '' %}
-            {% assign tags_content_temp = '' %}
+            {% assign post_id = post.id %}
+            {% assign post_slugs_tags = site.data.custom_post_tags[post_id]['tags'] | sort: tag[0] %}
+            {% for post_slugs_tag in post_slugs_tags %}
+                {% assign tag_slug = post_slugs_tag[0] %}
+                {% assign tag_name = post_slugs_tag[1] %}
+                <li class="p-category"><a href="/tag/{{ tag_slug }}/">{{ tag_name }}</a></li>
+            {% endfor %}
         </ul>
     </div>
 </div>
