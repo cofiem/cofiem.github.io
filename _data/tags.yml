@@ -39,6 +39,8 @@
   name: WIPO
 - slug: a-list-apart
   name: a list apart
+- slug: abc-iview
+  name: abc iview
 - slug: abortion
   name: abortion
 - slug: academia
@@ -65,6 +67,8 @@
   name: apple
 - slug: article
   name: article
+- slug: asimov
+  name: asimov
 - slug: asp-net
   name: asp.net
 - slug: audio
@@ -145,6 +149,8 @@
   name: dog
 - slug: donation
   name: donation
+- slug: drama
+  name: drama
 - slug: ebooks
   name: ebooks
 - slug: economics
@@ -383,6 +389,8 @@
   name: school
 - slug: science
   name: science
+- slug: science-fiction
+  name: science fiction
 - slug: screen
   name: screen
 - slug: security
@@ -455,6 +463,8 @@
   name: troubleshooting
 - slug: tv
   name: tv
+- slug: tv-show
+  name: tv show
 - slug: ubuntu
   name: ubuntu
 - slug: update
