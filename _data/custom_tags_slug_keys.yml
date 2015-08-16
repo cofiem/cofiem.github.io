@@ -53,7 +53,7 @@ accident:
   post_count: 1
   posts:
   - url: "/2009/03/15/whoa-oil-spill.html"
-    date: &98 2009-03-15 00:00:00.000000000 +10:00
+    date: &99 2009-03-15 00:00:00.000000000 +10:00
     title: Whoa, oil spill
 aggregate:
   slug: aggregate
@@ -131,7 +131,7 @@ apple:
   post_count: 2
   posts:
   - url: "/2009/08/14/ipod-touch-on-linux.html"
-    date: &76 2009-08-14 00:00:00.000000000 +10:00
+    date: &77 2009-08-14 00:00:00.000000000 +10:00
     title: iPod Touch on Linux
   - url: "/2009/08/06/news-app-stores-xml-flaw-browser-developments.html"
     date: *3
@@ -145,7 +145,7 @@ article:
     date: *4
     title: Assuming Incompetence
   - url: "/2014/09/24/proof-in-science.html"
-    date: &105 2014-09-24 00:00:00.000000000 +10:00
+    date: &106 2014-09-24 00:00:00.000000000 +10:00
     title: Proof in science
   - url: "/2014/09/24/new-anti-terror-laws.html"
     date: &13 2014-09-24 00:00:00.000000000 +10:00
@@ -173,7 +173,7 @@ asp-net:
     date: &8 2008-06-15 00:00:00.000000000 +10:00
     title: Extracting Plain Text for Indexing
   - url: "/2008/05/13/aspnet-databinding-containerdataitem.html"
-    date: &93 2008-05-13 00:00:00.000000000 +10:00
+    date: &94 2008-05-13 00:00:00.000000000 +10:00
     title: 'ASP.Net DataBinding: Container.DataItem'
   - url: "/2008/04/09/aspnet-validation.html"
     date: &9 2008-04-09 00:00:00.000000000 +10:00
@@ -239,7 +239,7 @@ beach:
   post_count: 1
   posts:
   - url: "/2009/05/15/some-cool-interesting-and-crazy-things.html"
-    date: &72 2009-05-15 00:00:00.000000000 +10:00
+    date: &73 2009-05-15 00:00:00.000000000 +10:00
     title: Some Cool, Interesting and Crazy things
 birthday:
   slug: birthday
@@ -255,10 +255,10 @@ blog:
   post_count: 2
   posts:
   - url: "/2009/07/18/semantics-erdf-rdfa-and-micro-formats.html"
-    date: &64 2009-07-18 00:00:00.000000000 +10:00
+    date: &65 2009-07-18 00:00:00.000000000 +10:00
     title: Semantics - eRDF, RDFa and micro-formats
   - url: "/2009/05/15/consolidating-blogs.html"
-    date: &100 2009-05-15 00:00:00.000000000 +10:00
+    date: &101 2009-05-15 00:00:00.000000000 +10:00
     title: Consolidating blogs
 board-game:
   slug: board-game
@@ -268,6 +268,14 @@ board-game:
   - url: "/2009/02/18/five-in-a-row-board-game.html"
     date: &52 2009-02-18 00:00:00.000000000 +10:00
     title: Five-In-A-Row Board Game
+book:
+  slug: book
+  name: book
+  post_count: 1
+  posts:
+  - url: "/2015/08/16/the-avid-reader-reader.html"
+    date: &64 2015-08-16 00:00:00.000000000 +10:00
+    title: The Avid Reader Reader
 brisbane:
   slug: brisbane
   name: brisbane
@@ -383,7 +391,7 @@ cat:
     date: &49 2009-03-04 00:00:00.000000000 +10:00
     title: Escaping from the clutches of the computer...
   - url: "/2008/05/18/rawr.html"
-    date: &83 2008-05-18 00:00:00.000000000 +10:00
+    date: &84 2008-05-18 00:00:00.000000000 +10:00
     title: Rawr?
 cloud:
   slug: cloud
@@ -391,7 +399,7 @@ cloud:
   post_count: 1
   posts:
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: &73 2009-04-29 00:00:00.000000000 +10:00
+    date: &74 2009-04-29 00:00:00.000000000 +10:00
     title: Linux on the Desktop
 code:
   slug: code
@@ -407,7 +415,7 @@ comment:
   post_count: 5
   posts:
   - url: "/2014/10/19/advance-australia-unfair.html"
-    date: &65 2014-10-19 00:00:00.000000000 +10:00
+    date: &66 2014-10-19 00:00:00.000000000 +10:00
     title: Advance Australia Unfair
   - url: "/2014/10/12/assuming-incompetence.html"
     date: *4
@@ -435,7 +443,7 @@ computer:
   post_count: 1
   posts:
   - url: "/2005/12/12/on-memory-computers-and-photos.html"
-    date: &91 2005-12-12 00:00:00.000000000 +10:00
+    date: &92 2005-12-12 00:00:00.000000000 +10:00
     title: On memory, computers, and photos
 config:
   slug: config
@@ -443,13 +451,13 @@ config:
   post_count: 4
   posts:
   - url: "/2009/02/18/importing-from-blogger-to-textpattern.html"
-    date: &109 2009-02-18 00:00:00.000000000 +10:00
+    date: &110 2009-02-18 00:00:00.000000000 +10:00
     title: Importing from Blogger to Textpattern
   - url: "/2008/09/27/auto-mounting-ntfs-drives-in-ubuntu-804-hardy-heron.html"
-    date: &88 2008-09-27 00:00:00.000000000 +10:00
+    date: &89 2008-09-27 00:00:00.000000000 +10:00
     title: Auto mounting ntfs drives in Ubuntu 8.04 (Hardy Heron)
   - url: "/2008/04/27/ubuntu-804-experiences.html"
-    date: &90 2008-04-27 00:00:00.000000000 +10:00
+    date: &91 2008-04-27 00:00:00.000000000 +10:00
     title: Ubuntu 8.04 experiences
   - url: "/2008/04/21/web-services-in-flash.html"
     date: &42 2008-04-21 00:00:00.000000000 +10:00
@@ -466,7 +474,7 @@ content:
     date: &17 2009-07-31 00:00:00.000000000 +10:00
     title: Wolfram Alpha and copyright
   - url: "/2009/03/12/where-are-the-australian-public-data-apis.html"
-    date: &74 2009-03-12 00:00:00.000000000 +10:00
+    date: &75 2009-03-12 00:00:00.000000000 +10:00
     title: Where are the Australian public data APIs?
   - url: "/2009/03/04/creative-commons-adding-value-and-pros-and-cons.html"
     date: &20 2009-03-04 00:00:00.000000000 +10:00
@@ -552,7 +560,7 @@ data-mining:
   post_count: 1
   posts:
   - url: "/2009/07/30/data-mining.html"
-    date: &69 2009-07-30 00:00:00.000000000 +10:00
+    date: &70 2009-07-30 00:00:00.000000000 +10:00
     title: Data Mining
 dates:
   slug: dates
@@ -560,7 +568,7 @@ dates:
   post_count: 1
   posts:
   - url: "/2008/04/14/comparing-dates-in-sql.html"
-    date: &94 2008-04-14 00:00:00.000000000 +10:00
+    date: &95 2008-04-14 00:00:00.000000000 +10:00
     title: Comparing Dates in SQL
 day-of-observance:
   slug: day-of-observance
@@ -623,7 +631,7 @@ documentation:
   post_count: 3
   posts:
   - url: "/2009/05/15/webmaster-tools.html"
-    date: &71 2009-05-15 00:00:00.000000000 +10:00
+    date: &72 2009-05-15 00:00:00.000000000 +10:00
     title: Webmaster tools
   - url: "/2008/08/13/ldap-queries.html"
     date: *29
@@ -643,7 +651,7 @@ dog:
     date: &51 2008-05-21 00:00:00.000000000 +10:00
     title: Argh... argh!
   - url: "/2008/05/18/look-out-for-the-chair.html"
-    date: &84 2008-05-18 00:00:00.000000000 +10:00
+    date: &85 2008-05-18 00:00:00.000000000 +10:00
     title: Look out for... the chair!
 donation:
   slug: donation
@@ -751,7 +759,7 @@ err-d:
   post_count: 4
   posts:
   - url: "/2009/07/30/lie-detectors.html"
-    date: &86 2009-07-30 00:00:00.000000000 +10:00
+    date: &87 2009-07-30 00:00:00.000000000 +10:00
     title: Lie detectors
   - url: "/2009/02/23/unix-time-never-boring.html"
     date: *34
@@ -760,7 +768,7 @@ err-d:
     date: &37 2009-02-13 00:00:00.000000000 +10:00
     title: We see the future!
   - url: "/2008/04/09/database-conundrum.html"
-    date: &114 2008-04-09 00:00:00.000000000 +10:00
+    date: &115 2008-04-09 00:00:00.000000000 +10:00
     title: Database Conundrum
 events:
   slug: events
@@ -768,7 +776,7 @@ events:
   post_count: 1
   posts:
   - url: "/2010/02/06/different-faces-of-web-development.html"
-    date: &70 2010-02-06 00:00:00.000000000 +10:00
+    date: &71 2010-02-06 00:00:00.000000000 +10:00
     title: Different faces of web development
 evolution:
   slug: evolution
@@ -808,7 +816,7 @@ explorer:
   post_count: 1
   posts:
   - url: "/2009/08/14/tortoise-svn-cache-causes-explorer-to-hang.html"
-    date: &104 2009-08-14 00:00:00.000000000 +10:00
+    date: &105 2009-08-14 00:00:00.000000000 +10:00
     title: Tortoise SVN Cache causes Explorer to hang
 extract-plain-text:
   slug: extract-plain-text
@@ -851,7 +859,7 @@ feminism:
     date: *36
     title: A Quote on Feminism and Humanism
   - url: "/2013/05/30/feminism-is.html"
-    date: &92 2013-05-30 00:00:00.000000000 +10:00
+    date: &93 2013-05-30 00:00:00.000000000 +10:00
     title: Feminism is...
 fibre:
   slug: fibre
@@ -867,7 +875,7 @@ files:
   post_count: 1
   posts:
   - url: "/2008/05/05/uploading-files.html"
-    date: &120 2008-05-05 00:00:00.000000000 +10:00
+    date: &121 2008-05-05 00:00:00.000000000 +10:00
     title: Uploading Files
 firefox:
   slug: firefox
@@ -878,7 +886,7 @@ firefox:
     date: *40
     title: 'Javascript: Event order and calling methods on plugins'
   - url: "/2010/01/10/another-way-to-look-at-it.html"
-    date: &67 2010-01-10 00:00:00.000000000 +10:00
+    date: &68 2010-01-10 00:00:00.000000000 +10:00
     title: Another way to look at it
 flash:
   slug: flash
@@ -892,7 +900,7 @@ flash:
     date: *41
     title: HTML 5's canvas vs Adobe's Flash, Sun/Oracle's JavaFX, Microsoft's Silverlight
   - url: "/2008/05/24/ubuntu-amd64-solution-for-flash.html"
-    date: &89 2008-05-24 00:00:00.000000000 +10:00
+    date: &90 2008-05-24 00:00:00.000000000 +10:00
     title: Ubuntu amd64 solution for flash
   - url: "/2008/04/21/web-services-in-flash.html"
     date: *42
@@ -906,10 +914,10 @@ flickr:
     date: *43
     title: Open Source, Flickr integration
   - url: "/2006/01/02/bike-in-the-snow.html"
-    date: &101 2006-01-02 00:00:00.000000000 +10:00
+    date: &102 2006-01-02 00:00:00.000000000 +10:00
     title: Bike in  the snow
   - url: "/2005/11/23/the-internet-and-sharing.html"
-    date: &75 2005-11-23 00:00:00.000000000 +10:00
+    date: &76 2005-11-23 00:00:00.000000000 +10:00
     title: The internet and sharing
 foobar2000:
   slug: foobar2000
@@ -917,7 +925,7 @@ foobar2000:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: &77 2010-11-21 00:00:00.000000000 +10:00
+    date: &78 2010-11-21 00:00:00.000000000 +10:00
     title: Desktop music programs
 food:
   slug: food
@@ -925,7 +933,7 @@ food:
   post_count: 1
   posts:
   - url: "/2010/01/14/options-for-good-after-9pm-snacks.html"
-    date: &111 2010-01-14 00:00:00.000000000 +10:00
+    date: &112 2010-01-14 00:00:00.000000000 +10:00
     title: Options for good after 9pm snacks
 free:
   slug: free
@@ -944,7 +952,7 @@ fun:
   post_count: 1
   posts:
   - url: "/2011/03/10/human-v1-1.html"
-    date: &66 2011-03-10 00:00:00.000000000 +10:00
+    date: &67 2011-03-10 00:00:00.000000000 +10:00
     title: Human v1.1
 funny:
   slug: funny
@@ -967,19 +975,19 @@ funny:
     date: *48
     title: Camouflage Cat
   - url: "/2009/03/04/not-your-average-java-exceptions.html"
-    date: &78 2009-03-04 00:00:00.000000000 +10:00
+    date: &79 2009-03-04 00:00:00.000000000 +10:00
     title: Not your Average Java Exceptions
   - url: "/2009/03/04/escaping-from-the-clutches-of-the-computer.html"
     date: *49
     title: Escaping from the clutches of the computer...
   - url: "/2009/02/21/the-mind-of-a-web-developer.html"
-    date: &68 2009-02-21 00:00:00.000000000 +10:00
+    date: &69 2009-02-21 00:00:00.000000000 +10:00
     title: The mind of a web developer
   - url: "/2009/02/13/we-see-the-future.html"
     date: *37
     title: We see the future!
   - url: "/2008/05/21/i-has-a-flavr-and-i-keeps-it.html"
-    date: &82 2008-05-21 00:00:00.000000000 +10:00
+    date: &83 2008-05-21 00:00:00.000000000 +10:00
     title: I has a flavr, and i keeps it!
   - url: "/2008/05/21/get-back-here.html"
     date: *50
@@ -1004,7 +1012,7 @@ games:
   post_count: 4
   posts:
   - url: "/2015/01/17/game-review-steamworld-dig.html"
-    date: &106 2015-01-17 00:00:00.000000000 +10:00
+    date: &107 2015-01-17 00:00:00.000000000 +10:00
     title: 'Game Review: SteamWorld Dig'
   - url: "/2010/05/07/games.html"
     date: *30
@@ -1065,7 +1073,7 @@ geeky:
   post_count: 1
   posts:
   - url: "/2011/07/02/rock-and-roll-nerd.html"
-    date: &117 2011-07-02 00:00:00.000000000 +10:00
+    date: &118 2011-07-02 00:00:00.000000000 +10:00
     title: Rock and Roll Nerd by Tim Minchin
 gender:
   slug: gender
@@ -1137,7 +1145,7 @@ government:
     date: *39
     title: Circular reasoning hiding the benefits of fast Internet access
   - url: "/2014/09/26/more-on-nothing-to-hide.html"
-    date: &103 2014-09-26 00:00:00.000000000 +10:00
+    date: &104 2014-09-26 00:00:00.000000000 +10:00
     title: More on 'Nothing to hide, nothing to fear'
   - url: "/2014/09/24/new-anti-terror-laws.html"
     date: *13
@@ -1156,6 +1164,14 @@ gui:
   - url: "/2010/03/12/sound-in-ubuntu-server-910-karmic-koala.html"
     date: *57
     title: Sound in Ubuntu Server 9.10 Karmic Koala
+handmade:
+  slug: handmade
+  name: handmade
+  post_count: 1
+  posts:
+  - url: "/2015/08/16/the-avid-reader-reader.html"
+    date: *64
+    title: The Avid Reader Reader
 history:
   slug: history
   name: history
@@ -1192,13 +1208,13 @@ html5:
     date: *7
     title: CSS vendor prefixes
   - url: "/2009/08/06/time-for-html5.html"
-    date: &119 2009-08-06 00:00:00.000000000 +10:00
+    date: &120 2009-08-06 00:00:00.000000000 +10:00
     title: Time for HTML5?
   - url: "/2009/08/06/news-app-stores-xml-flaw-browser-developments.html"
     date: *3
     title: 'News: App Stores, XML flaw, Browser developments'
   - url: "/2009/07/18/semantics-erdf-rdfa-and-micro-formats.html"
-    date: *64
+    date: *65
     title: Semantics - eRDF, RDFa and micro-formats
   - url: "/2009/06/28/html-5-s-canvas-vs-adobe-s-flash-sun-oracle-s-javafx-microsoft-s-silverlight.html"
     date: *41
@@ -1225,7 +1241,7 @@ im:
   post_count: 1
   posts:
   - url: "/2009/08/27/pidgin-adding-facebook-and-twitter.html"
-    date: &99 2009-08-27 00:00:00.000000000 +10:00
+    date: &100 2009-08-27 00:00:00.000000000 +10:00
     title: 'Pidgin: Adding Facebook and Twitter'
 image:
   slug: image
@@ -1233,16 +1249,16 @@ image:
   post_count: 4
   posts:
   - url: "/2014/10/19/advance-australia-unfair.html"
-    date: *65
+    date: *66
     title: Advance Australia Unfair
   - url: "/2014/02/11/birthday.html"
     date: *55
     title: Birthday Gecko!
   - url: "/2011/08/31/rogue-panda-on-pamage.html"
-    date: &108 2011-08-31 00:00:00.000000000 +10:00
+    date: &109 2011-08-31 00:00:00.000000000 +10:00
     title: Rogue Panda on Rampage
   - url: "/2011/03/10/human-v1-1.html"
-    date: *66
+    date: *67
     title: Human v1.1
 image-post:
   slug: image-post
@@ -1250,10 +1266,10 @@ image-post:
   post_count: 3
   posts:
   - url: "/2010/01/10/another-way-to-look-at-it.html"
-    date: *67
+    date: *68
     title: Another way to look at it
   - url: "/2009/02/21/the-mind-of-a-web-developer.html"
-    date: *68
+    date: *69
     title: The mind of a web developer
   - url: "/2009/02/13/we-see-the-future.html"
     date: *37
@@ -1305,7 +1321,7 @@ innovation:
     date: *3
     title: 'News: App Stores, XML flaw, Browser developments'
   - url: "/2009/07/30/data-mining.html"
-    date: *69
+    date: *70
     title: Data Mining
   - url: "/2009/07/17/will-e-books-go-the-way-of-the-mp3.html"
     date: *31
@@ -1344,37 +1360,37 @@ internet:
     date: *39
     title: Circular reasoning hiding the benefits of fast Internet access
   - url: "/2010/02/06/different-faces-of-web-development.html"
-    date: *70
+    date: *71
     title: Different faces of web development
   - url: "/2009/05/21/throughts-for-the-day.html"
     date: *58
     title: Thoughts for the day
   - url: "/2009/05/15/webmaster-tools.html"
-    date: *71
+    date: *72
     title: Webmaster tools
   - url: "/2009/05/15/some-cool-interesting-and-crazy-things.html"
-    date: *72
+    date: *73
     title: Some Cool, Interesting and Crazy things
   - url: "/2009/05/13/-free-is-sometimes-a-barrier-to-adoption-.html"
     date: *44
     title: '"Free is sometimes a barrier to adoption"'
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: &87 2009-04-17 00:00:00.000000000 +10:00
+    date: &88 2009-04-17 00:00:00.000000000 +10:00
     title: Kogan Agora Pro Netbook hands-on review
   - url: "/2009/03/12/where-are-the-australian-public-data-apis.html"
-    date: *74
+    date: *75
     title: Where are the Australian public data APIs?
   - url: "/2009/03/04/creative-commons-adding-value-and-pros-and-cons.html"
     date: *20
     title: Creative Commons - Adding Value and Pros and Cons
   - url: "/2009/02/21/blog-of-bluehostcom-s-president.html"
-    date: &121 2009-02-21 00:00:00.000000000 +10:00
+    date: &122 2009-02-21 00:00:00.000000000 +10:00
     title: Blog of Bluehost.com's President
   - url: "/2009/02/16/found-recently-jslint-javascript-verifier.html"
-    date: &79 2009-02-16 00:00:00.000000000 +10:00
+    date: &80 2009-02-16 00:00:00.000000000 +10:00
     title: 'Found recently: JSLint - javascript verifier'
   - url: "/2009/02/13/we-see-the-future.html"
     date: *37
@@ -1383,10 +1399,10 @@ internet:
     date: *12
     title: GetUp! SaveTheNet campaign
   - url: "/2005/11/23/the-internet-and-sharing.html"
-    date: *75
+    date: *76
     title: The internet and sharing
   - url: "/2005/05/27/can-t-see-the-days-for-the-weeks.html"
-    date: &85 2005-05-27 00:00:00.000000000 +10:00
+    date: &86 2005-05-27 00:00:00.000000000 +10:00
     title: Can't see the days for the weeks
 intro:
   slug: intro
@@ -1394,7 +1410,7 @@ intro:
   post_count: 1
   posts:
   - url: "/2009/02/13/anotherbytenet-everything-that-bytes.html"
-    date: &110 2009-02-13 00:00:00.000000000 +10:00
+    date: &111 2009-02-13 00:00:00.000000000 +10:00
     title: anotherbyte.net - everything that bytes
 ip:
   slug: ip
@@ -1413,7 +1429,7 @@ ipod:
   post_count: 1
   posts:
   - url: "/2009/08/14/ipod-touch-on-linux.html"
-    date: *76
+    date: *77
     title: iPod Touch on Linux
 itunes:
   slug: itunes
@@ -1421,7 +1437,7 @@ itunes:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
 java:
   slug: java
@@ -1438,7 +1454,7 @@ java:
     date: *41
     title: HTML 5's canvas vs Adobe's Flash, Sun/Oracle's JavaFX, Microsoft's Silverlight
   - url: "/2009/03/04/not-your-average-java-exceptions.html"
-    date: *78
+    date: *79
     title: Not your Average Java Exceptions
 javascript:
   slug: javascript
@@ -1449,16 +1465,16 @@ javascript:
     date: *40
     title: 'Javascript: Event order and calling methods on plugins'
   - url: "/2009/02/21/movable-objects.html"
-    date: &80 2009-02-21 00:00:00.000000000 +10:00
+    date: &81 2009-02-21 00:00:00.000000000 +10:00
     title: Movable Objects
   - url: "/2009/02/18/modifying-text-in-javascript.html"
-    date: &81 2009-02-18 00:00:00.000000000 +10:00
+    date: &82 2009-02-18 00:00:00.000000000 +10:00
     title: Modifying text in javascript
   - url: "/2009/02/18/five-in-a-row-board-game.html"
     date: *52
     title: Five-In-A-Row Board Game
   - url: "/2009/02/16/found-recently-jslint-javascript-verifier.html"
-    date: *79
+    date: *80
     title: 'Found recently: JSLint - javascript verifier'
 just-for-fun:
   slug: just-for-fun
@@ -1484,34 +1500,34 @@ just-for-fun:
     date: *48
     title: Camouflage Cat
   - url: "/2009/03/04/not-your-average-java-exceptions.html"
-    date: *78
+    date: *79
     title: Not your Average Java Exceptions
   - url: "/2009/03/04/escaping-from-the-clutches-of-the-computer.html"
     date: *49
     title: Escaping from the clutches of the computer...
   - url: "/2009/02/21/movable-objects.html"
-    date: *80
+    date: *81
     title: Movable Objects
   - url: "/2009/02/18/modifying-text-in-javascript.html"
-    date: *81
+    date: *82
     title: Modifying text in javascript
   - url: "/2009/02/18/five-in-a-row-board-game.html"
     date: *52
     title: Five-In-A-Row Board Game
   - url: "/2008/05/21/i-has-a-flavr-and-i-keeps-it.html"
-    date: *82
+    date: *83
     title: I has a flavr, and i keeps it!
   - url: "/2008/05/21/argh-argh.html"
     date: *51
     title: Argh... argh!
   - url: "/2008/05/18/rawr.html"
-    date: *83
+    date: *84
     title: Rawr?
   - url: "/2008/05/18/look-out-for-the-chair.html"
-    date: *84
+    date: *85
     title: Look out for... the chair!
   - url: "/2005/05/27/can-t-see-the-days-for-the-weeks.html"
-    date: *85
+    date: *86
     title: Can't see the days for the weeks
 language:
   slug: language
@@ -1535,7 +1551,7 @@ lie-to-me:
   post_count: 1
   posts:
   - url: "/2009/07/30/lie-detectors.html"
-    date: *86
+    date: *87
     title: Lie detectors
 linux:
   slug: linux
@@ -1543,7 +1559,7 @@ linux:
   post_count: 15
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
   - url: "/2010/06/10/downsampling-audio-and-linux-os-camera.html"
     date: *11
@@ -1555,22 +1571,22 @@ linux:
     date: *53
     title: More Steam Games
   - url: "/2009/08/23/update-on-kogan-netbook.html"
-    date: &115 2009-08-23 00:00:00.000000000 +10:00
+    date: &116 2009-08-23 00:00:00.000000000 +10:00
     title: Update on Kogan Netbook
   - url: "/2009/08/14/ipod-touch-on-linux.html"
-    date: *76
+    date: *77
     title: iPod Touch on Linux
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: &96 2009-07-03 00:00:00.000000000 +10:00
+    date: &97 2009-07-03 00:00:00.000000000 +10:00
     title: Ubuntu Netbook Remix resolution and dialog boxes
   - url: "/2009/05/15/ubuntu-netbook-remix-on-kogan-netbook-pro-obsevations.html"
-    date: &97 2009-05-15 00:00:00.000000000 +10:00
+    date: &98 2009-05-15 00:00:00.000000000 +10:00
     title: Ubuntu Netbook Remix on Kogan Netbook Pro - Obsevations
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: *87
+    date: *88
     title: Kogan Agora Pro Netbook hands-on review
   - url: "/2009/02/23/unix-time-never-boring.html"
     date: *34
@@ -1579,13 +1595,13 @@ linux:
     date: 2009-02-21 00:00:00.000000000 +10:00
     title: CrunchBang Linux
   - url: "/2008/09/27/auto-mounting-ntfs-drives-in-ubuntu-804-hardy-heron.html"
-    date: *88
+    date: *89
     title: Auto mounting ntfs drives in Ubuntu 8.04 (Hardy Heron)
   - url: "/2008/05/24/ubuntu-amd64-solution-for-flash.html"
-    date: *89
+    date: *90
     title: Ubuntu amd64 solution for flash
   - url: "/2008/04/27/ubuntu-804-experiences.html"
-    date: *90
+    date: *91
     title: Ubuntu 8.04 experiences
 lyrics:
   slug: lyrics
@@ -1593,7 +1609,7 @@ lyrics:
   post_count: 1
   posts:
   - url: "/2014/10/19/sweet-dreams-are-made-of.html"
-    date: &95 2014-10-19 00:00:00.000000000 +10:00
+    date: &96 2014-10-19 00:00:00.000000000 +10:00
     title: Sweet Dreams (Are Made of This And That)
 market-share:
   slug: market-share
@@ -1601,7 +1617,7 @@ market-share:
   post_count: 1
   posts:
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
 mashup:
   slug: mashup
@@ -1644,7 +1660,7 @@ memory:
   post_count: 1
   posts:
   - url: "/2005/12/12/on-memory-computers-and-photos.html"
-    date: *91
+    date: *92
     title: On memory, computers, and photos
 men:
   slug: men
@@ -1652,7 +1668,7 @@ men:
   post_count: 2
   posts:
   - url: "/2013/05/30/feminism-is.html"
-    date: *92
+    date: *93
     title: Feminism is...
   - url: "/2012/08/04/out-gender-systems-sucks-for-men-too.html"
     date: *60
@@ -1674,10 +1690,10 @@ microsoft:
     date: *41
     title: HTML 5's canvas vs Adobe's Flash, Sun/Oracle's JavaFX, Microsoft's Silverlight
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
   - url: "/2009/02/21/the-mind-of-a-web-developer.html"
-    date: *68
+    date: *69
     title: The mind of a web developer
   - url: "/2008/08/13/ldap-queries.html"
     date: *29
@@ -1686,16 +1702,16 @@ microsoft:
     date: *5
     title: ASP.Net Update Panel and Timer
   - url: "/2008/05/25/date-formats-in-sql-server.html"
-    date: &112 2008-05-25 00:00:00.000000000 +10:00
+    date: &113 2008-05-25 00:00:00.000000000 +10:00
     title: Date formats in SQL Server
   - url: "/2008/05/13/aspnet-databinding-containerdataitem.html"
-    date: *93
+    date: *94
     title: 'ASP.Net DataBinding: Container.DataItem'
   - url: "/2008/04/14/comparing-dates-in-sql.html"
-    date: *94
+    date: *95
     title: Comparing Dates in SQL
   - url: "/2008/04/10/paging-data-using-sql.html"
-    date: &113 2008-04-10 00:00:00.000000000 +10:00
+    date: &114 2008-04-10 00:00:00.000000000 +10:00
     title: Paging data using SQL
   - url: "/2008/04/09/aspnet-validation.html"
     date: *9
@@ -1714,7 +1730,7 @@ mobile-browsers:
   post_count: 1
   posts:
   - url: "/2010/02/06/different-faces-of-web-development.html"
-    date: *70
+    date: *71
     title: Different faces of web development
 money:
   slug: money
@@ -1738,10 +1754,10 @@ music:
   post_count: 2
   posts:
   - url: "/2014/10/19/sweet-dreams-are-made-of.html"
-    date: *95
+    date: *96
     title: Sweet Dreams (Are Made of This And That)
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
 nbn:
   slug: nbn
@@ -1765,16 +1781,16 @@ netbook:
   post_count: 4
   posts:
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: *96
+    date: *97
     title: Ubuntu Netbook Remix resolution and dialog boxes
   - url: "/2009/05/15/ubuntu-netbook-remix-on-kogan-netbook-pro-obsevations.html"
-    date: *97
+    date: *98
     title: Ubuntu Netbook Remix on Kogan Netbook Pro - Obsevations
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: *87
+    date: *88
     title: Kogan Agora Pro Netbook hands-on review
 new-tech:
   slug: new-tech
@@ -1782,7 +1798,7 @@ new-tech:
   post_count: 2
   posts:
   - url: "/2009/07/30/lie-detectors.html"
-    date: *86
+    date: *87
     title: Lie detectors
   - url: "/2009/05/21/throughts-for-the-day.html"
     date: *58
@@ -1793,7 +1809,7 @@ news:
   post_count: 6
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: &102 2013-07-21 00:00:00.000000000 +10:00
+    date: &103 2013-07-21 00:00:00.000000000 +10:00
     title: Science literacy
   - url: "/2012/03/28/median-income.html"
     date: *6
@@ -1805,10 +1821,10 @@ news:
     date: *58
     title: Thoughts for the day
   - url: "/2009/05/15/some-cool-interesting-and-crazy-things.html"
-    date: *72
+    date: *73
     title: Some Cool, Interesting and Crazy things
   - url: "/2009/03/15/whoa-oil-spill.html"
-    date: *98
+    date: *99
     title: Whoa, oil spill
 newspaper:
   slug: newspaper
@@ -1824,7 +1840,7 @@ ogg:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
 open-source:
   slug: open-source
@@ -1832,10 +1848,10 @@ open-source:
   post_count: 2
   posts:
   - url: "/2009/08/27/pidgin-adding-facebook-and-twitter.html"
-    date: *99
+    date: *100
     title: 'Pidgin: Adding Facebook and Twitter'
   - url: "/2009/08/14/ipod-touch-on-linux.html"
-    date: *76
+    date: *77
     title: iPod Touch on Linux
 openid:
   slug: openid
@@ -1867,16 +1883,16 @@ photos:
   post_count: 4
   posts:
   - url: "/2009/05/15/consolidating-blogs.html"
-    date: *100
+    date: *101
     title: Consolidating blogs
   - url: "/2006/01/02/bike-in-the-snow.html"
-    date: *101
+    date: *102
     title: Bike in  the snow
   - url: "/2005/12/12/on-memory-computers-and-photos.html"
-    date: *91
+    date: *92
     title: On memory, computers, and photos
   - url: "/2005/11/23/the-internet-and-sharing.html"
-    date: *75
+    date: *76
     title: The internet and sharing
 pidgin:
   slug: pidgin
@@ -1884,7 +1900,7 @@ pidgin:
   post_count: 1
   posts:
   - url: "/2009/08/27/pidgin-adding-facebook-and-twitter.html"
-    date: *99
+    date: *100
     title: 'Pidgin: Adding Facebook and Twitter'
 plugin:
   slug: plugin
@@ -1892,7 +1908,7 @@ plugin:
   post_count: 1
   posts:
   - url: "/2009/08/27/pidgin-adding-facebook-and-twitter.html"
-    date: *99
+    date: *100
     title: 'Pidgin: Adding Facebook and Twitter'
 poem:
   slug: poem
@@ -1900,7 +1916,7 @@ poem:
   post_count: 1
   posts:
   - url: "/2014/04/20/messy-room-poem.html"
-    date: &107 2014-04-20 00:00:00.000000000 +10:00
+    date: &108 2014-04-20 00:00:00.000000000 +10:00
     title: 'Poem: Whosever room this is should be ashamed!'
 policy:
   slug: policy
@@ -1908,7 +1924,7 @@ policy:
   post_count: 1
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
 politics:
   slug: politics
@@ -1916,7 +1932,7 @@ politics:
   post_count: 3
   posts:
   - url: "/2014/10/19/advance-australia-unfair.html"
-    date: *65
+    date: *66
     title: Advance Australia Unfair
   - url: "/2014/09/25/national-security-laws.html"
     date: *32
@@ -1930,7 +1946,7 @@ power:
   post_count: 2
   posts:
   - url: "/2014/09/26/more-on-nothing-to-hide.html"
-    date: *103
+    date: *104
     title: More on 'Nothing to hide, nothing to fear'
   - url: "/2013/10/25/nothing-to-hide-nothing-to-fear-no-stop.html"
     date: *63
@@ -1941,7 +1957,7 @@ privacy:
   post_count: 4
   posts:
   - url: "/2014/09/26/more-on-nothing-to-hide.html"
-    date: *103
+    date: *104
     title: More on 'Nothing to hide, nothing to fear'
   - url: "/2014/09/25/national-security-laws.html"
     date: *32
@@ -1970,10 +1986,10 @@ programming:
     date: *43
     title: Open Source, Flickr integration
   - url: "/2009/03/12/where-are-the-australian-public-data-apis.html"
-    date: *74
+    date: *75
     title: Where are the Australian public data APIs?
   - url: "/2009/03/04/not-your-average-java-exceptions.html"
-    date: *78
+    date: *79
     title: Not your Average Java Exceptions
 queensland:
   slug: queensland
@@ -1981,7 +1997,7 @@ queensland:
   post_count: 1
   posts:
   - url: "/2009/03/15/whoa-oil-spill.html"
-    date: *98
+    date: *99
     title: Whoa, oil spill
 quick-fix:
   slug: quick-fix
@@ -1989,7 +2005,7 @@ quick-fix:
   post_count: 1
   posts:
   - url: "/2009/08/14/tortoise-svn-cache-causes-explorer-to-hang.html"
-    date: *104
+    date: *105
     title: Tortoise SVN Cache causes Explorer to hang
 quirksmode:
   slug: quirksmode
@@ -2002,19 +2018,22 @@ quirksmode:
 quote:
   slug: quote
   name: quote
-  post_count: 4
+  post_count: 5
   posts:
+  - url: "/2015/08/16/the-avid-reader-reader.html"
+    date: *64
+    title: The Avid Reader Reader
   - url: "/2014/09/26/more-on-nothing-to-hide.html"
-    date: *103
+    date: *104
     title: More on 'Nothing to hide, nothing to fear'
   - url: "/2014/09/24/proof-in-science.html"
-    date: *105
+    date: *106
     title: Proof in science
   - url: "/2013/10/25/nothing-to-hide-nothing-to-fear-no-stop.html"
     date: *63
     title: Nothing to hide, nothing to fear.... No. Stop.
   - url: "/2013/05/30/feminism-is.html"
-    date: *92
+    date: *93
     title: Feminism is...
 quotes:
   slug: quotes
@@ -2030,7 +2049,7 @@ radio:
   post_count: 1
   posts:
   - url: "/2009/07/30/lie-detectors.html"
-    date: *86
+    date: *87
     title: Lie detectors
 rdf:
   slug: rdf
@@ -2038,8 +2057,16 @@ rdf:
   post_count: 1
   posts:
   - url: "/2009/07/18/semantics-erdf-rdfa-and-micro-formats.html"
-    date: *64
+    date: *65
     title: Semantics - eRDF, RDFa and micro-formats
+reading:
+  slug: reading
+  name: reading
+  post_count: 1
+  posts:
+  - url: "/2015/08/16/the-avid-reader-reader.html"
+    date: *64
+    title: The Avid Reader Reader
 relationships:
   slug: relationships
   name: relationships
@@ -2054,10 +2081,10 @@ remix:
   post_count: 2
   posts:
   - url: "/2014/10/19/sweet-dreams-are-made-of.html"
-    date: *95
+    date: *96
     title: Sweet Dreams (Are Made of This And That)
   - url: "/2014/10/19/advance-australia-unfair.html"
-    date: *65
+    date: *66
     title: Advance Australia Unfair
 research:
   slug: research
@@ -2065,7 +2092,7 @@ research:
   post_count: 2
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
   - url: "/2011/03/13/australian-government-website-there-s-a-lot.html"
     date: *62
@@ -2076,7 +2103,7 @@ resolution:
   post_count: 1
   posts:
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: *96
+    date: *97
     title: Ubuntu Netbook Remix resolution and dialog boxes
 rest:
   slug: rest
@@ -2084,7 +2111,7 @@ rest:
   post_count: 1
   posts:
   - url: "/2009/03/12/where-are-the-australian-public-data-apis.html"
-    date: *74
+    date: *75
     title: Where are the Australian public data APIs?
 review:
   slug: review
@@ -2092,7 +2119,7 @@ review:
   post_count: 5
   posts:
   - url: "/2015/01/17/game-review-steamworld-dig.html"
-    date: *106
+    date: *107
     title: 'Game Review: SteamWorld Dig'
   - url: "/2011/03/13/australian-government-website-there-s-a-lot.html"
     date: *62
@@ -2104,7 +2131,7 @@ review:
     date: *24
     title: Online Game Distribution
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: *87
+    date: *88
     title: Kogan Agora Pro Netbook hands-on review
 sample-rate:
   slug: sample-rate
@@ -2120,7 +2147,7 @@ sandilandsisadouche:
   post_count: 1
   posts:
   - url: "/2009/07/30/lie-detectors.html"
-    date: *86
+    date: *87
     title: Lie detectors
 school:
   slug: school
@@ -2128,7 +2155,7 @@ school:
   post_count: 1
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
 science:
   slug: science
@@ -2136,10 +2163,10 @@ science:
   post_count: 2
   posts:
   - url: "/2014/09/24/proof-in-science.html"
-    date: *105
+    date: *106
     title: Proof in science
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
 science-fiction:
   slug: science-fiction
@@ -2163,7 +2190,7 @@ screen:
   post_count: 1
   posts:
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: *96
+    date: *97
     title: Ubuntu Netbook Remix resolution and dialog boxes
 security:
   slug: security
@@ -2179,7 +2206,7 @@ semantic:
   post_count: 1
   posts:
   - url: "/2009/07/18/semantics-erdf-rdfa-and-micro-formats.html"
-    date: *64
+    date: *65
     title: Semantics - eRDF, RDFa and micro-formats
 server:
   slug: server
@@ -2203,16 +2230,16 @@ silly:
   post_count: 4
   posts:
   - url: "/2014/10/19/sweet-dreams-are-made-of.html"
-    date: *95
+    date: *96
     title: Sweet Dreams (Are Made of This And That)
   - url: "/2014/04/20/messy-room-poem.html"
-    date: *107
+    date: *108
     title: 'Poem: Whosever room this is should be ashamed!'
   - url: "/2014/02/11/birthday.html"
     date: *55
     title: Birthday Gecko!
   - url: "/2011/08/31/rogue-panda-on-pamage.html"
-    date: *108
+    date: *109
     title: Rogue Panda on Rampage
 silverlight:
   slug: silverlight
@@ -2231,10 +2258,10 @@ site-info:
   post_count: 2
   posts:
   - url: "/2009/02/18/importing-from-blogger-to-textpattern.html"
-    date: *109
+    date: *110
     title: Importing from Blogger to Textpattern
   - url: "/2009/02/13/anotherbytenet-everything-that-bytes.html"
-    date: *110
+    date: *111
     title: anotherbyte.net - everything that bytes
 snack:
   slug: snack
@@ -2242,7 +2269,7 @@ snack:
   post_count: 1
   posts:
   - url: "/2010/01/14/options-for-good-after-9pm-snacks.html"
-    date: *111
+    date: *112
     title: Options for good after 9pm snacks
 social-justice:
   slug: social-justice
@@ -2250,7 +2277,7 @@ social-justice:
   post_count: 1
   posts:
   - url: "/2011/05/28/i-think-i-heard-thats-so-gay.html"
-    date: &122 2011-05-28 00:00:00.000000000 +10:00
+    date: &123 2011-05-28 00:00:00.000000000 +10:00
     title: I think I just heard you say... "That's so gay!"
 software:
   slug: software
@@ -2298,16 +2325,16 @@ sql:
   post_count: 4
   posts:
   - url: "/2008/05/25/date-formats-in-sql-server.html"
-    date: *112
+    date: *113
     title: Date formats in SQL Server
   - url: "/2008/04/14/comparing-dates-in-sql.html"
-    date: *94
+    date: *95
     title: Comparing Dates in SQL
   - url: "/2008/04/10/paging-data-using-sql.html"
-    date: *113
+    date: *114
     title: Paging data using SQL
   - url: "/2008/04/09/database-conundrum.html"
-    date: *114
+    date: *115
     title: Database Conundrum
 sql-server:
   slug: sql-server
@@ -2315,16 +2342,16 @@ sql-server:
   post_count: 4
   posts:
   - url: "/2008/05/25/date-formats-in-sql-server.html"
-    date: *112
+    date: *113
     title: Date formats in SQL Server
   - url: "/2008/04/14/comparing-dates-in-sql.html"
-    date: *94
+    date: *95
     title: Comparing Dates in SQL
   - url: "/2008/04/10/paging-data-using-sql.html"
-    date: *113
+    date: *114
     title: Paging data using SQL
   - url: "/2008/04/09/database-conundrum.html"
-    date: *114
+    date: *115
     title: Database Conundrum
 standards:
   slug: standards
@@ -2365,10 +2392,10 @@ storage:
   post_count: 2
   posts:
   - url: "/2009/07/30/data-mining.html"
-    date: *69
+    date: *70
     title: Data Mining
   - url: "/2005/12/12/on-memory-computers-and-photos.html"
-    date: *91
+    date: *92
     title: On memory, computers, and photos
 survey:
   slug: survey
@@ -2376,7 +2403,7 @@ survey:
   post_count: 1
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
 talking:
   slug: talking
@@ -2400,7 +2427,7 @@ ted:
   post_count: 3
   posts:
   - url: "/2009/05/15/some-cool-interesting-and-crazy-things.html"
-    date: *72
+    date: *73
     title: Some Cool, Interesting and Crazy things
   - url: "/2009/05/15/little-bits-of-geekery.html"
     date: *59
@@ -2414,7 +2441,7 @@ temp:
   post_count: 1
   posts:
   - url: "/2010/12/17/temporary-user-profile-solution.html"
-    date: &116 2010-12-17 00:00:00.000000000 +10:00
+    date: &117 2010-12-17 00:00:00.000000000 +10:00
     title: Temporary User Profile solution
 terrorism:
   slug: terrorism
@@ -2430,7 +2457,7 @@ test:
   post_count: 1
   posts:
   - url: "/2013/07/21/science-literacy.html"
-    date: *102
+    date: *103
     title: Science literacy
 text-file:
   slug: text-file
@@ -2457,7 +2484,7 @@ time:
     date: *34
     title: Unix time - never boring
   - url: "/2005/05/27/can-t-see-the-days-for-the-weeks.html"
-    date: *85
+    date: *86
     title: Can't see the days for the weeks
 tools:
   slug: tools
@@ -2473,7 +2500,7 @@ tortoise-svn:
   post_count: 1
   posts:
   - url: "/2009/08/14/tortoise-svn-cache-causes-explorer-to-hang.html"
-    date: *104
+    date: *105
     title: Tortoise SVN Cache causes Explorer to hang
 touch:
   slug: touch
@@ -2484,7 +2511,7 @@ touch:
     date: *27
     title: Beginning Android development
   - url: "/2010/02/06/different-faces-of-web-development.html"
-    date: *70
+    date: *71
     title: Different faces of web development
 touchpad:
   slug: touchpad
@@ -2492,7 +2519,7 @@ touchpad:
   post_count: 1
   posts:
   - url: "/2009/08/23/update-on-kogan-netbook.html"
-    date: *115
+    date: *116
     title: Update on Kogan Netbook
 trademark:
   slug: trademark
@@ -2508,25 +2535,25 @@ troubleshooting:
   post_count: 7
   posts:
   - url: "/2010/12/17/temporary-user-profile-solution.html"
-    date: *116
+    date: *117
     title: Temporary User Profile solution
   - url: "/2010/01/12/repairing-a-wireless-network-connection.html"
-    date: &118 2010-01-12 00:00:00.000000000 +10:00
+    date: &119 2010-01-12 00:00:00.000000000 +10:00
     title: Repairing a wireless network connection
   - url: "/2009/02/23/unix-time-never-boring.html"
     date: *34
     title: Unix time - never boring
   - url: "/2008/05/24/ubuntu-amd64-solution-for-flash.html"
-    date: *89
+    date: *90
     title: Ubuntu amd64 solution for flash
   - url: "/2008/04/27/ubuntu-804-experiences.html"
-    date: *90
+    date: *91
     title: Ubuntu 8.04 experiences
   - url: "/2008/04/14/comparing-dates-in-sql.html"
-    date: *94
+    date: *95
     title: Comparing Dates in SQL
   - url: "/2008/04/09/database-conundrum.html"
-    date: *114
+    date: *115
     title: Database Conundrum
 tv:
   slug: tv
@@ -2550,7 +2577,7 @@ ubuntu:
   post_count: 10
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
   - url: "/2010/03/12/sound-in-ubuntu-server-910-karmic-koala.html"
     date: *57
@@ -2559,25 +2586,25 @@ ubuntu:
     date: *53
     title: More Steam Games
   - url: "/2009/08/23/update-on-kogan-netbook.html"
-    date: *115
+    date: *116
     title: Update on Kogan Netbook
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: *96
+    date: *97
     title: Ubuntu Netbook Remix resolution and dialog boxes
   - url: "/2009/05/15/ubuntu-netbook-remix-on-kogan-netbook-pro-obsevations.html"
-    date: *97
+    date: *98
     title: Ubuntu Netbook Remix on Kogan Netbook Pro - Obsevations
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: *87
+    date: *88
     title: Kogan Agora Pro Netbook hands-on review
   - url: "/2008/09/27/auto-mounting-ntfs-drives-in-ubuntu-804-hardy-heron.html"
-    date: *88
+    date: *89
     title: Auto mounting ntfs drives in Ubuntu 8.04 (Hardy Heron)
   - url: "/2008/04/27/ubuntu-804-experiences.html"
-    date: *90
+    date: *91
     title: Ubuntu 8.04 experiences
 update:
   slug: update
@@ -2585,7 +2612,7 @@ update:
   post_count: 1
   posts:
   - url: "/2009/08/23/update-on-kogan-netbook.html"
-    date: *115
+    date: *116
     title: Update on Kogan Netbook
 user:
   slug: user
@@ -2593,7 +2620,7 @@ user:
   post_count: 1
   posts:
   - url: "/2010/12/17/temporary-user-profile-solution.html"
-    date: *116
+    date: *117
     title: Temporary User Profile solution
 user-profile:
   slug: user-profile
@@ -2601,7 +2628,7 @@ user-profile:
   post_count: 1
   posts:
   - url: "/2010/12/17/temporary-user-profile-solution.html"
-    date: *116
+    date: *117
     title: Temporary User Profile solution
 validate:
   slug: validate
@@ -2609,7 +2636,7 @@ validate:
   post_count: 2
   posts:
   - url: "/2009/02/16/found-recently-jslint-javascript-verifier.html"
-    date: *79
+    date: *80
     title: 'Found recently: JSLint - javascript verifier'
   - url: "/2008/04/09/aspnet-validation.html"
     date: *9
@@ -2636,13 +2663,13 @@ video:
   post_count: 3
   posts:
   - url: "/2011/07/02/rock-and-roll-nerd.html"
-    date: *117
+    date: *118
     title: Rock and Roll Nerd by Tim Minchin
   - url: "/2009/08/06/news-app-stores-xml-flaw-browser-developments.html"
     date: *3
     title: 'News: App Stores, XML flaw, Browser developments'
   - url: "/2009/05/15/some-cool-interesting-and-crazy-things.html"
-    date: *72
+    date: *73
     title: Some Cool, Interesting and Crazy things
 w3c:
   slug: w3c
@@ -2658,7 +2685,7 @@ web:
   post_count: 9
   posts:
   - url: "/2010/01/12/repairing-a-wireless-network-connection.html"
-    date: *118
+    date: *119
     title: Repairing a wireless network connection
   - url: "/2009/10/06/mashupaustralia-i-wish-i-had-time.html"
     date: *19
@@ -2667,22 +2694,22 @@ web:
     date: *3
     title: 'News: App Stores, XML flaw, Browser developments'
   - url: "/2009/07/30/data-mining.html"
-    date: *69
+    date: *70
     title: Data Mining
   - url: "/2009/06/28/html-5-s-canvas-vs-adobe-s-flash-sun-oracle-s-javafx-microsoft-s-silverlight.html"
     date: *41
     title: HTML 5's canvas vs Adobe's Flash, Sun/Oracle's JavaFX, Microsoft's Silverlight
   - url: "/2009/05/15/webmaster-tools.html"
-    date: *71
+    date: *72
     title: Webmaster tools
   - url: "/2009/04/17/kogan-agora-pronetbook-hands-on-review.html"
-    date: *87
+    date: *88
     title: Kogan Agora Pro Netbook hands-on review
   - url: "/2009/03/04/creative-commons-adding-value-and-pros-and-cons.html"
     date: *20
     title: Creative Commons - Adding Value and Pros and Cons
   - url: "/2008/05/24/ubuntu-amd64-solution-for-flash.html"
-    date: *89
+    date: *90
     title: Ubuntu amd64 solution for flash
 web-dev:
   slug: web-dev
@@ -2690,7 +2717,7 @@ web-dev:
   post_count: 18
   posts:
   - url: "/2010/02/06/different-faces-of-web-development.html"
-    date: *70
+    date: *71
     title: Different faces of web development
   - url: "/2009/11/11/mashupaustralia-update.html"
     date: *23
@@ -2699,22 +2726,22 @@ web-dev:
     date: *19
     title: MashupAustralia - I wish I had time!
   - url: "/2009/08/06/time-for-html5.html"
-    date: *119
+    date: *120
     title: Time for HTML5?
   - url: "/2009/07/03/ubuntu-netbook-remix-resolution-and-dialog-boxes.html"
-    date: *96
+    date: *97
     title: Ubuntu Netbook Remix resolution and dialog boxes
   - url: "/2009/06/28/html-5-s-canvas-vs-adobe-s-flash-sun-oracle-s-javafx-microsoft-s-silverlight.html"
     date: *41
     title: HTML 5's canvas vs Adobe's Flash, Sun/Oracle's JavaFX, Microsoft's Silverlight
   - url: "/2009/02/21/the-mind-of-a-web-developer.html"
-    date: *68
+    date: *69
     title: The mind of a web developer
   - url: "/2009/02/21/movable-objects.html"
-    date: *80
+    date: *81
     title: Movable Objects
   - url: "/2009/02/16/found-recently-jslint-javascript-verifier.html"
-    date: *79
+    date: *80
     title: 'Found recently: JSLint - javascript verifier'
   - url: "/2008/12/02/nested-aspnet-repeaters.html"
     date: *10
@@ -2726,19 +2753,19 @@ web-dev:
     date: *5
     title: ASP.Net Update Panel and Timer
   - url: "/2008/05/13/aspnet-databinding-containerdataitem.html"
-    date: *93
+    date: *94
     title: 'ASP.Net DataBinding: Container.DataItem'
   - url: "/2008/05/05/uploading-files.html"
-    date: *120
+    date: *121
     title: Uploading Files
   - url: "/2008/04/21/web-services-in-flash.html"
     date: *42
     title: Web Services in Flash
   - url: "/2008/04/10/paging-data-using-sql.html"
-    date: *113
+    date: *114
     title: Paging data using SQL
   - url: "/2008/04/09/database-conundrum.html"
-    date: *114
+    date: *115
     title: Database Conundrum
   - url: "/2008/04/09/aspnet-validation.html"
     date: *9
@@ -2749,7 +2776,7 @@ web-host:
   post_count: 1
   posts:
   - url: "/2009/02/21/blog-of-bluehostcom-s-president.html"
-    date: *121
+    date: *122
     title: Blog of Bluehost.com's President
 web-server:
   slug: web-server
@@ -2757,10 +2784,10 @@ web-server:
   post_count: 2
   posts:
   - url: "/2009/02/21/blog-of-bluehostcom-s-president.html"
-    date: *121
+    date: *122
     title: Blog of Bluehost.com's President
   - url: "/2008/05/05/uploading-files.html"
-    date: *120
+    date: *121
     title: Uploading Files
 web-service:
   slug: web-service
@@ -2771,7 +2798,7 @@ web-service:
     date: *24
     title: Online Game Distribution
   - url: "/2009/03/12/where-are-the-australian-public-data-apis.html"
-    date: *74
+    date: *75
     title: Where are the Australian public data APIs?
   - url: "/2008/04/21/web-services-in-flash.html"
     date: *42
@@ -2782,7 +2809,7 @@ webmaster:
   post_count: 1
   posts:
   - url: "/2009/05/15/webmaster-tools.html"
-    date: *71
+    date: *72
     title: Webmaster tools
 welfare:
   slug: welfare
@@ -2798,7 +2825,7 @@ winamp:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
 windows:
   slug: windows
@@ -2806,22 +2833,22 @@ windows:
   post_count: 6
   posts:
   - url: "/2010/12/17/temporary-user-profile-solution.html"
-    date: *116
+    date: *117
     title: Temporary User Profile solution
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
   - url: "/2010/01/12/repairing-a-wireless-network-connection.html"
-    date: *118
+    date: *119
     title: Repairing a wireless network connection
   - url: "/2009/11/25/more-steam-games.html"
     date: *53
     title: More Steam Games
   - url: "/2009/05/15/ubuntu-netbook-remix-on-kogan-netbook-pro-obsevations.html"
-    date: *97
+    date: *98
     title: Ubuntu Netbook Remix on Kogan Netbook Pro - Obsevations
   - url: "/2009/04/29/linux-on-the-desktop.html"
-    date: *73
+    date: *74
     title: Linux on the Desktop
 wipo:
   slug: wipo
@@ -2840,7 +2867,7 @@ wireless:
     date: *57
     title: Sound in Ubuntu Server 9.10 Karmic Koala
   - url: "/2010/01/12/repairing-a-wireless-network-connection.html"
-    date: *118
+    date: *119
     title: Repairing a wireless network connection
 wmp:
   slug: wmp
@@ -2848,7 +2875,7 @@ wmp:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
 wolframalpha:
   slug: wolframalpha
@@ -2864,7 +2891,7 @@ words:
   post_count: 1
   posts:
   - url: "/2011/05/28/i-think-i-heard-thats-so-gay.html"
-    date: *122
+    date: *123
     title: I think I just heard you say... "That's so gay!"
 work:
   slug: work
@@ -2880,7 +2907,7 @@ writing:
   post_count: 1
   posts:
   - url: "/2010/01/10/another-way-to-look-at-it.html"
-    date: *67
+    date: *68
     title: Another way to look at it
 xiph:
   slug: xiph
@@ -2888,5 +2915,5 @@ xiph:
   post_count: 1
   posts:
   - url: "/2010/11/21/desktop-music-programs.html"
-    date: *77
+    date: *78
     title: Desktop music programs
