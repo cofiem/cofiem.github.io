@@ -60,7 +60,7 @@ Follow me:
 
     {% if site.data.theme.social.tumblr %}
     <a class="u-url" rel="me" itemprop="url" itemscope="" itemtype="http://schema.org/ContactPoint"
-       title="{{ site.data.theme.name }} on tumblr" href="https://{{ site.data.theme.social.tumblr }}.tumblr.com">
+       title="{{ site.data.theme.name }} on tumblr" href="http://{{ site.data.theme.social.tumblr }}.tumblr.com">
         <i class="fa fa-tumblr-square"></i>
     </a>
     {% endif %}
@@ -132,7 +132,15 @@ Follow me:
     <a class="u-url" rel="me" itemprop="url" itemscope="" itemtype="http://schema.org/ContactPoint"
        title="{{ site.data.theme.name }} on Goodreads"
        href="https://www.goodreads.com/user/show/{{ site.data.theme.social.goodreads }}">
-        <i class="fa fa-globe"></i>
+        <i class="fa fa-book"></i>
+    </a>
+    {% endif %}
+    
+    {% if site.data.theme.social.pinterest %}
+    <a class="u-url" rel="me" itemprop="url" itemscope="" itemtype="http://schema.org/ContactPoint"
+       title="{{ site.data.theme.name }} on Pinterest"
+       href="https://www.pinterest.com/{{ site.data.theme.social.pinterest }}">
+        <i class="fa fa-pinterest-square"></i>
     </a>
     {% endif %}
 
