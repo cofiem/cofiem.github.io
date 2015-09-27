@@ -42,7 +42,7 @@ call from the beginning, or the point within the current program for radio.
 Analysis of long duration audio recordings requires not only a playback interface that can deal with recordings up to a day in duration,
 but also provide some means of seeking within a recording, and a method of adding metadata to the recording. Any metadata or annotations
 need to remain attached to the recording. Current software simply is not appropriate for analysing long duration recordings.
-There is software for audio editing, such as <a href="">Audacity</a>, which provides tools for modifying and visualising audio.
+There is software for audio editing, such as <a href="http://audacityteam.org/">Audacity</a>, which provides tools for modifying and visualising audio.
 The visuals can be a waveform (a time-amplitude representation of sound) or a spectrogram (a time-frequency-amplitude representation of sound).
 
 Here's an audio file loaded in Audcity showing the spectrogram:
