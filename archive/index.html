@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: Archive
 ---
 
@@ -11,7 +11,7 @@ title: Archive
             <time class="dt-published" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
                 {{ post.date | date_to_string }} &raquo;
             </time>
-            <a class="p-name u-url" itemprop="name headline" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="p-name u-url" itemprop="name headline" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             <link itemprop="url" href="{{post.url}}" />
             <meta class="p-author" itemprop="author" content="{{ site.data.theme.name }}" />
         </li>

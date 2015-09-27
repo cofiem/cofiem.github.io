@@ -8,7 +8,7 @@ tags:
 ---
 This is something I wrote in Feburary 2013. I'd like to share it.
 
-> Normal seems easy, common, correct, non-threatening. It can feel like "why would anyone want anything else?" Problem is it leaves no room for experimentation, no space to grow and change, no leeway to explore. Because no two people are quite the same. Bundling the, for most unimaginable, range of relationships and sexual expression into a prepackaged 'this is what people want'. There are so many decisions overriden by this. Infinite possibilities left unexplored. The is very little room for personal choice when a 'normal' holds such sway.
+> Normal seems easy, common, correct, non-threatening. It can feel like "why would anyone want anything else?" Problem is it leaves no room for experimentation, no space to grow and change, no leeway to explore. Because no two people are quite the same. Bundling the, for most unimaginable, range of relationships and sexual expression into a prepackaged 'this is what people want'. There are so many decisions overriden by this. Infinite possibilities left unexplored. There is very little room for personal choice when a 'normal' holds such sway.
 
 > We live in a society scared of itself. Seemingly unable to accept difference, disability, experimentation, varied life paths. Respect, compassion and understanding are deemed radical, as if we are not all part of the same world, as if we do not share resources, as if we do not have our common and individual triumphs and failures.
 

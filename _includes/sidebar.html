@@ -1,23 +1,54 @@
 <nav class="h-card" itemscope="" itemtype="http://schema.org/Person">
     <a class="p-url" href="http://anotherbyte.net/">
-        <link itemprop="url" href="http://anotherbyte.net/" />
+        <link itemprop="url" href="http://anotherbyte.net/"/>
+
+        {% if site.data.theme.social.gravatar %}
+        <img class="u-photo" itemprop="image"
+             src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar"
+             alt="My photo"/>
+        {% else %}
         <img class="u-photo" itemprop="image" src="/logo.png" id="logo" alt="Blog logo"/>
+        {% endif %}
+
     </a>
-    <h2>I'm <a class="p-name p-given-name" itemprop="name givenName" href="/">{{ site.data.theme.name }}</a>.</h2>
+
+    <h2>
+        I'm <a class="p-name p-given-name" itemprop="name givenName" href="/">{{ site.data.theme.name }}</a>.
+    </h2>
+
     <div id="bio">
-        <p class="p-note" itemprop="description">Researcher and web/software developer, BCC CityCat frequenter, hot chocolate and scrambled eggs ftw!</p>
-        <p class="p-note">I'm part of a research team building a <a class="p-org" href="http://baw.ecosounds.org/">Bioacoustic Workbench</a> for analysing audio recordings.</p>
-        <p class="p-note">You can also see some of my <a rel="me" href="http://yet.anotherbyte.net/">Works-in-Progress, Experiments, and Hack Competition Submissions</a>.
-            <link itemprop="url" href="http://yet.anotherbyte.net/" />
+        <p class="p-note" style="text-align:center;">
+            <small>
+                <em>
+                    {{ site.data.theme.tagline }}
+                </em>
+            </small>
         </p>
 
-        <p><a href="/archive">Archive</a></p>
-        <p><a href="/tags">Tags</a></p>
+        <p class="p-note" itemprop="description">
+            {{ site.description }}
+        </p>
+
+        <p class="p-note" itemprop="description">
+            Researcher and web/software developer, BCC CityCat frequenter, hot chocolate and scrambled eggs ftw!
+        </p>
+
+        <p class="p-note">
+            I'm part of a research team building the <a class="p-org" href="http://baw.ecosounds.org/">Bioacoustic
+            Workbench</a>
+            for analysing audio recordings.
+        </p>
+
+        <p class="p-note">
+            You can also see some of my <a rel="me" href="http://yet.anotherbyte.net/">Works-in-Progress, Experiments,
+            and Hack Competition Submissions</a>.
+            <link itemprop="url" href="http://yet.anotherbyte.net/"/>
+        </p>
+        <p>
+            <a href="/archive">Archive</a>
+        </p>
     </div>
     <div id="social">
         {% include social.html %}
-    </div>
-    <div id="">
-
     </div>
 </nav>

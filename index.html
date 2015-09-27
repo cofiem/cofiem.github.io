@@ -1,83 +1,10 @@
 ---
-layout: default
+layout: posts
 title: Home
 ---
 
 {% for post in paginator.posts %}
-<div class="h-entry post-paged" itemscope="" itemtype="http://schema.org/BlogPosting">
-    <p class="meta">
-        <time class="dt-published" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-            <i class="fa fa-clock-o"></i>
-            {{ post.date | date: "%B %d, %Y" }}
-        </time>
-    </p>
-
-    <h1 class="p-name title" itemprop="name headline"><a class="u-url" href="{{ post.url }}">{{ post.title }}</a></h1>
-    <link itemprop="url" href="{{post.url}}" />
-    <meta class="p-author" itemprop="author" content="{{ site.data.theme.name }}" />
-    <div class="e-content post" itemprop="articleBody text">
-        {{ post.content }}
-    </div>
-    <div class="postTags clearfix">
-        {% if post.tags.size == 1 %}<i class="fa fa-tag fa-lg"></i>{% else %}<i class="fa fa-tags fa-lg"></i>{% endif %}
-        <ul>
-            {% assign post_id = post.id %}
-            {% assign post_slugs_tags = site.data.custom_post_tags[post_id]['tags'] | sort: tag[0] %}
-            {% for post_slugs_tag in post_slugs_tags %}
-                {% assign tag_slug = post_slugs_tag[0] %}
-                {% assign tag_name = post_slugs_tag[1] %}
-                <li class="p-category"><a href="/tag/{{ tag_slug }}/">{{ tag_name }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+    {% include post.html post=post is_paged=true %}
 {% endfor %}
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="prev">&laquo;
-        Prev</a>
-    {% else %}
-    <span class="disabled previous_page">&laquo; Prev</span>
-    {% endif %}
-
-    {% assign already_has_hellip = false %}
-
-    {% for page in (1..paginator.total_pages) %}
-
-    {% assign extra_pages = 3 %}
-    {% assign start_min = extra_pages %}
-    {% assign start_max = paginator.page | minus: extra_pages %}
-    {% assign end_min = paginator.page | plus: extra_pages %}
-    {% assign end_max = paginator.total_pages | plus: 1 | minus: extra_pages %}
-
-
-    {% if page == paginator.page %}
-    <em class="current">{{ page }}</em>
-    {% assign already_has_hellip = false %}
-    {% elsif page == 1 %}
-    <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% elsif page < start_min or page > end_max %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-        {{ page }}
-    </a>
-    {% elsif page > start_max and page < end_min %}
-    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-        {{ page}}
-    </a>
-    {% else %}
-    {% unless already_has_hellip %}
-    &hellip;
-    {% assign already_has_hellip = true %}
-    {% endunless %}
-    {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="next" class="next_page">Next &raquo;</a>
-    {% else %}
-    <span>Next &raquo;</span>
-    {% endif %}
-</div>
-{% endif %}
+{% include paging_footer.html %}

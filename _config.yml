@@ -1,9 +1,26 @@
-# General Jekyll Config
-highlighter: pygments
-safe: true
-url: http://anotherbyte.net
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
-paginate: 5
+# github pages
+#safe: true
+#lsi: false
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
+- jekyll-feed
+
+# jekyll configuration
+highlighter: pygments
+markdown: kramdown
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
+
+url: http://anotherbyte.net # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+host: 0.0.0.0 # for local server
+paginate: 10 # number of posts per page
+
+# Site settings
+name: Anotherbyte # site title
+description: >
+  Mark's blog. Notes on Australian news, society, politics, and events.
+  Commentary on software development, games, the intersection of copyright and technology, and science.
+author: Mark
+
+feed:
+  path: feed.xml

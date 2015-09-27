@@ -6,16 +6,16 @@ highlight_color: '#620B74'
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: cofiem
-  #bitbucket:
+  bitbucket: cofiem
   #hacker_news:
   stackexchange: 15104
   stackoverflow: 31567
   twitter: cofiem
   #facebook:
-  #tumblr:
+  tumblr: yet-anotherbyte
   linkedin: markcf
   gplus: +MarkCottmanFields
-  #foursquare: cofiem
+  #foursquare:
   lastfm: anotherbyte
   flickr: kramrecords
   steam: cofiem
@@ -28,10 +28,13 @@ social:
 # "Hi, I'm _______"
 name: Mark
 #email: test@example.com
-tagline: "another byte of opinion"
+tagline: write another byte
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-5300909-5
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true

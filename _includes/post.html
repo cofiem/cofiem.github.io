@@ -1,0 +1,43 @@
+<div class="h-entry {% if include.is_paged %} post-paged {% endif %}" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <p class="meta">
+        <time class="dt-published" itemprop="datePublished" datetime="{{ include.post.date | date_to_xmlschema }}">
+            <i class="fa fa-clock-o"></i>
+            {{ include.post.date | date: "%B %d, %Y" }}
+        </time>
+        {% unless include.is_paged %}
+        <a href="/">
+            <i class="home fa fa-home"></i>
+        </a>
+        {% endunless %}
+    </p>
+
+    <h1 class="p-name title" itemprop="name headline">
+        {% if include.is_paged %}
+        <a class="u-url" href="{{ include.post.url }}">{{ include.post.title }}</a>
+        {% else %}
+        <a class="u-url" href="{{ include.post.url }}" id="{{ include.post.id }}">{{ include.post.title }}</a>
+        {% endif %}
+    </h1>
+
+    <link itemprop="url" href="{{ include.post.url }}" />
+    <meta class="p-author" itemprop="author" content="{{ site.data.theme.name }}" />
+
+    <div class="e-content post" itemprop="articleBody text">
+        {{ include.post.content }}
+    </div>
+
+    <div class="postTags clearfix">
+        {% if include.post.tags.size == 1 %}
+        <i class="fa fa-tag fa-lg"></i>
+        {% else %}
+        <i class="fa fa-tags fa-lg"></i>
+        {% endif %}
+        <ul>
+            {% for tag in include.post.tags %}
+                <li class="p-category">
+                   {{ tag }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

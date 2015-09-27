@@ -8,14 +8,14 @@ tags:
 <p>Some possibilities for late night snacks:</p>
 <p>
 Chocolate<br>
-<img src="http://farm4.static.flickr.com/3212/2282328482_3e0a8e222e_m.jpg" />
+<img src="http://farm4.static.flickr.com/3212/2282328482_3e0a8e222e_m.jpg" alt="chocolate cake" />
 <span style="font-size:8px;"><a href="http://www.flickr.com/photos/rene_ehrhardt/2899415651/">CC-BY, Toasted Bread, René Ehrhardt</a></span>
 <br><br>
 Cookies<br>
 Fruit<br>
 Yoghurt<br>
 Toast<br>
-<img src="http://farm4.static.flickr.com/3193/2899415651_6428010c8b_m.jpg" />
+<img src="http://farm4.static.flickr.com/3193/2899415651_6428010c8b_m.jpg" alt="toast" />
 <span style="font-size:8px;"><a href="http://www.flickr.com/photos/rene_ehrhardt/2899415651/">CC-BY-SA,B52 Chocolate Pastry, Kirti Poddar</a></span>
 <br><br>
 Juice
