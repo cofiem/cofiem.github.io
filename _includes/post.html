@@ -23,7 +23,7 @@
     <meta class="p-author" itemprop="author" content="{{ site.data.theme.name }}" />
 
     <div class="e-content post" itemprop="articleBody text">
-        {{ include.post.content }}
+        {{ include.post.content | markdownify }}
     </div>
 
     <div class="postTags clearfix">

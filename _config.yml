@@ -1,5 +1,5 @@
 # github pages
-#safe: true
+safe: false
 #lsi: false
 gems:
 - jekyll-sitemap
@@ -13,7 +13,7 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 url: http://anotherbyte.net # the base hostname & protocol for your site
 baseurl: '' # the subpath of your site, e.g. /blog/
 host: 0.0.0.0 # for local server
-paginate: 10 # number of posts per page
+paginate: 5 # number of posts per page
 
 # Site settings
 name: Anotherbyte # site title

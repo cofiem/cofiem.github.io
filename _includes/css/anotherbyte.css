@@ -3,6 +3,10 @@ dd
     margin-left: 15px;
 }
 
+p img {
+    margin: 0 auto;
+}
+
 /* post tag styles */
 .postTags {
     margin: 15px 0 10px 0;
