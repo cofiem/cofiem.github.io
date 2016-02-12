@@ -1,6 +1,6 @@
 <nav class="h-card" itemscope="" itemtype="http://schema.org/Person">
-    <a class="p-url" href="http://anotherbyte.net/">
-        <link itemprop="url" href="http://anotherbyte.net/"/>
+    <a class="p-url" href="{{ site.url }}">
+        <link itemprop="url" href="{{ site.url }}"/>
 
         {% if site.data.theme.social.gravatar %}
         <img class="u-photo" itemprop="image"
@@ -13,7 +13,7 @@
     </a>
 
     <h2>
-        I'm <a class="p-name p-given-name" itemprop="name givenName" href="/">{{ site.data.theme.name }}</a>.
+        I'm <a class="p-name p-given-name" itemprop="name givenName" href="{{ site.url }}">{{ site.data.theme.name }}</a>.
     </h2>
 
     <div id="bio">
@@ -30,13 +30,7 @@
         </p>
 
         <p class="p-note" itemprop="description">
-            Researcher and web/software developer, BCC CityCat frequenter, hot chocolate and scrambled eggs ftw!
-        </p>
-
-        <p class="p-note">
-            I'm part of a research team building the <a class="p-org" href="http://baw.ecosounds.org/">Bioacoustic
-            Workbench</a>
-            for analysing audio recordings.
+            Web developer, BCC CityCat frequenter, hot chocolate and scrambled eggs ftw!
         </p>
 
         <p class="p-note">

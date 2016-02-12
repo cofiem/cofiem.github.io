@@ -16,3 +16,4 @@ The website can be previewed and regenerated as the pages are edited, just as Gi
 Or just build the site:
 
     bundle exec jekyll build
+
