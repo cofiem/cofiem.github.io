@@ -1,9 +1,0 @@
----
-layout: post
-title: Movable Objects
-tags:
-- javascript
-- just for fun
-- web dev
----
-Another <a href="http://yet.anotherbyte.net/MovableObjects/">simple yet oddly fun test</a>. Moving around coloured blocks. What fun! Yep, that's all this page does. It gives a whole bunch of information about what you're moving and where it is on the page. Feel free to use the javascript, if you like. You just need to attribute me somewhere (can be in the code), and letting me know that you're using it would be great!

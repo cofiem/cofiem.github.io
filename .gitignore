@@ -1,6 +1,1 @@
-_site/
-.DS_Store
-.*.swp
-.idea
-Gemfile.lock
-.jekyll-metadata
+.idea/

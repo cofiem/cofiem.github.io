@@ -1,10 +1,228 @@
----
-layout: posts
-title: Home
----
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An overview of Mark's experience, skills, and degrees.">
+    <meta name="author" content="Matk Cottman-Fields">
+    <link rel="shortcut icon" href="/favicon.png">
 
-{% for post in paginator.posts %}
-    {% include post.html post=post is_paged=true %}
-{% endfor %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <style type="text/css">
+        /* Links */
+        a,
+        a:focus,
+        a:hover {
+            color: #fff;
+        }
 
-{% include paging_footer.html %}
+        a {
+            text-decoration: underline;
+        }
+
+        /* Custom default button */
+        .btn-secondary,
+        .btn-secondary:hover,
+        .btn-secondary:focus {
+            color: #333;
+            text-shadow: none; /* Prevent inheritance from `body` */
+            background-color: #fff;
+            border: .05rem solid #fff;
+        }
+
+        /*
+         * Base structure
+         */
+        html,
+        body {
+            height: 100%;
+            background-color: #333;
+        }
+
+        body {
+            display: -ms-flexbox;
+            display: flex;
+            color: #fff;
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+        }
+
+        .cover-container {
+            max-width: 45em;
+        }
+
+        /*
+         * Header
+         */
+        .masthead {
+            margin-bottom: 2rem;
+        }
+
+        .masthead-brand {
+            margin-bottom: 0;
+        }
+
+        .nav-masthead .nav-link {
+            padding: .25rem 0;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .5);
+            background-color: transparent;
+            border-bottom: .25rem solid transparent;
+        }
+
+        .nav-masthead .nav-link:hover,
+        .nav-masthead .nav-link:focus {
+            border-bottom-color: rgba(255, 255, 255, .25);
+        }
+
+        .nav-masthead .nav-link + .nav-link {
+            margin-left: 1rem;
+        }
+
+        .nav-masthead .active {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        @media (min-width: 48em) {
+            .masthead-brand {
+                float: left;
+            }
+
+            .nav-masthead {
+                float: right;
+            }
+        }
+
+        /*
+         * Cover
+         */
+        .cover {
+            padding: 0 1.5rem;
+        }
+
+        .cover .btn-lg {
+            padding: .75rem 1.25rem;
+            font-weight: 700;
+        }
+
+        .dark-colour {
+            color: rgb(100, 166, 88);
+        }
+
+        .light-colour {
+            color: rgb(175, 139, 0);
+        }
+
+        /*
+         * Footer
+         */
+        .mastfoot {
+            color: rgba(255, 255, 255, .5);
+        }
+    </style>
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Mark Cottman-Fields",
+            "url": "https://cofiem.id.au",
+            "sameAs": [
+                "https://github.com/cofiem",
+                "https://stackoverflow.com/users/31567/cofiem",
+                "https://twitter.com/cofiem",
+                "https://www.linkedin.com/in/markcf",
+                "https://eprints.qut.edu.au/view/person/Cottman-Fields,_Mark.html",
+                "https://www.anotherbyte.net"
+            ]
+        }
+
+
+    </script>
+
+    <title>Mark | cofiem</title>
+</head>
+
+<body class="text-center">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand light-colour"></h3>
+            <nav class="nav nav-masthead justify-content-center">
+                <a rel="me" title="Mark on Github" href="https://github.com/cofiem">
+                    <i class="fab fa-lg fa-github"></i>
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a rel="me" title="Mark on StackOverflow" href="https://stackoverflow.com/users/31567/cofiem">
+                    <i class="fab fa-lg fa-stack-overflow"></i>
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a rel="me" title="Mark on Twitter" href="https://twitter.com/cofiem">
+                    <i class="fab fa-lg fa-twitter"></i>
+                </a>
+                &nbsp;&nbsp;&nbsp;
+                <a rel="me" title="Mark on LinkedIn" href="https://www.linkedin.com/in/markcf">
+                    <i class="fab fa-lg fa-linkedin"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main" class="inner cover">
+        <h1 class="cover-heading dark-colour">Hi, I'm Mark</h1>
+        <p class="lead">
+            Here you can find more about me and links to my online public work.
+        </p>
+        <p class="lead">
+            I am a software developer and Research Software Engineer (RSE), with experience in data
+            management, software development, website development, DevOps, and user interface design.
+        </p>
+        <p class="lead">
+            I've worked in diverse fields including human genomics, environmental acoustic monitoring,
+            and cultural institutions. My technical skills and expertise can be applied to any systems development,
+            data management, or web application endeavour.
+        </p>
+        <p class="lead">
+            I have completed two degrees, both from <abbr title="Queensland University of Technology">QUT</abbr>.
+            A <abbr title="Doctor of Philosophy ">PhD</abbr> in
+            <abbr title="abbreviated as HCI">Human-Computer Interaction</abbr> in 2017,
+            and a <abbr title="Bachelor of Information Technology (Web Services and Applications)">
+            BInfTech (WebServ&amp;Apps)</abbr> in 2009.
+            I've published a number of <a href="https://eprints.qut.edu.au/view/person/Cottman-Fields,_Mark.html">academic
+            papers, including my PhD thesis</a>.
+        </p>
+    </main>
+
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <p>
+
+            </p>
+        </div>
+    </footer>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
